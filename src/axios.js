@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const instance = axios.create({
-    baseURL: 'http://localhost:4444',
+    baseURL: 'dispa-blog-beck-b4cl2y8p3-dispa1.vercel.app',
 });
 
 instance.interceptors.request.use((config) => {
